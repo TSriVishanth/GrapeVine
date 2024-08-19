@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GRAPEWINE-table Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/indeximg/grape.png" type="png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <!-- icon -->
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- custom-scrol -->
+    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css">
+    <!-- owl -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- data-table -->
+    <link rel="stylesheet" href="./css/jquery.dataTables.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/custom.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar    navbar-expand-lg  ">
+            <div class="container d-flex align-items-center">
+                <a href="" class="navbar-brand"><img src="images/indeximg/crypto 1.png"></a>
+
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+                    <span class=""><img src="images/indeximg/toggleicon.png"></span>
+                </button>
+
+                <div class="collapse navbar-collapse nav-vine " id="navbarmenu">
+                    <ul class="navbar-nav ml-auto text-center d-flex align-items-center ">
+                        <li class="nav-item upload-btn px-2  py-2 ">
+                            <a href="addarticle.html" class="nav-link"> <img src="./images/indeximg/Upload.png" class="px-2" alt="">
+                                Upload Your Articles</a>
+                        </li>
+
+                        <li class="nav-item reg-btn  px-2 py-2">
+                            <a href="register.html" class="nav-link"> <img src="./images/indeximg/Add-User.png" class="px-2" alt="">
+                                Register</a>
+                        </li>
+                        <li class="nav-item login-btn px-2  py-2 ">
+                            <a href="login.html" class="nav-link"> <img src="./images/indeximg/Unlock.png" class="px-2 " alt="">
+                                Login</a>
+                        </li>
+
+                        <li class="nav-item buy-btn  px-2  py-2">
+
+                            <a href="cartdetail.html" class="nav-link "> <span class="badge notify">3</span> <img
+                                    src="./images/indeximg/Buy.png" class="px-2  " alt=""> </a>
+
+                        </li>
+
+
+
+
+                    </ul>
+
+
+
+
+                </div>
+
+            </div>
+        </nav>
+        <nav class="navbar  navbar-2  navbar-expand-xl  ">
+            <div class="container d-flex align-items-center">
+
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu1">
+                    <span class=""><img src="images/indeximg/menu.png"></span>
+                </button>
+
+                <div class="collapse navbar-collapse nav-vine1 nav-border " id="navbarmenu1">
+                    <ul class="navbar-nav  text-center d-flex align-items-center ">
+                        <li class="nav-item  pr-1  py-2 ">
+
+                            <div class="dropdown vine-drp">
+                                <button class="btn  p-0" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <a href="cryptonews.html" class="nav-link active p-0">
+                                        Crypto News <i class="fas fa-chevron-down pl-3"></i> </a>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <button class="dropdown-item" type="button">Action</button>
+                                    <button class="dropdown-item" type="button">Another action</button>
+                                    <button class="dropdown-item" type="button">Something else here</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item   px-1 py-1">
+                            <a href="articleview.html" class="nav-link">
+                                Articles</a>
+                        </li>
+                        <li class="nav-item  px-1  py-1 ">
+                            <a href="exchanges.html" class="nav-link">
+                                Exchanges</a>
+                        </li>
+                        <li class="nav-item   px-1 py-1">
+                            <a href="hearit.html" class="nav-link">
+                                Heard It On The Grapevine </a>
+                        </li>
+                        <li class="nav-item  px-1  py-1 ">
+                            <a href="crypto-table.html" class="nav-link">
+                                Marketcap </a>
+                        </li>
+                        <li class="nav-item   px-1 py-1">
+                            <a href="Technicals.html" class="nav-link">
+                                Technicals </a>
+                        </li>
+                        <li class="nav-item  px-1  py-1 ">
+                            <a href="merch.html" class="nav-link">
+                                Merch Store</a>
+                        </li>
+                        <li>
+                            <div class=" py-1   px-1 ">
+                                <form action="" class="nav-search">
+                                    <div class="input-group ">
+                                        <input type="text" class="form-control" placeholder="Search Keywords..."
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><img
+                                                    src="./images/indeximg/Search.png" alt=""></span>
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </li>
+
+
+
+
+
+                    </ul>
+
+
+
+
+                </div>
+
+            </div>
+        </nav>
+
+
+
+
+
+
+
+    </header>
+    <section class="section-cal">
+        <div class="container">
+            <div class="inner-heading ">
+                <div class="py-2">
+                    Cryptocurrency Market Cap and Prices
+                </div>
+            </div>
+        
+            <div class="py-4 table-responsive vine-table1">
+      
+                <div class="d-flex justify-content-between table-header align-items-center flex-wrap">
+                    <div class="tabel-dr">
+                        <div class="d-flex align-items-center"> 
+                            <div class="form-group ">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>INR</option>
+                                    <option>YEN</option>
+                                    <option>DOLLAR</option>
+                                    <option>POUND</option>
+                                    <option>RINGT</option>
+                                </select>
+                            </div >
+                            <div class="pl-2 pb-3"><i class="far fa-star"></i></div>
+
+                        </div>
+
+                    </div>
+                    <div class="  px-1 d-flex  flex-wrap">
+                        <form action="" class="nav-search">
+                            <div class="input-group ">
+                                <input type="text" class="form-control" placeholder="Search Keywords..."
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2"><img
+                                            src="./images/indeximg/Search.png" alt=""></span>
+                                </div>
+                            </div>
+
+                        </form>
+                        <div class="tablet-btn1">
+                            <a href="#" >Previous</a>
+
+                        </div>
+                        <div  class="tablet-btn2">
+                            <a href="#">Next</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <table class="table table-bordered g-vine">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Changes 24H</th>
+                            <th scope="col">Changes 7D</th>
+                            <th scope="col">Market Cap</th>
+                            <th scope="col">Volume 24H</th>
+                            <th scope="col">Available Supply</th>
+                            <th scope="col">Price Graph (7D)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="vine-tbody text-center">
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        01
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t1.png" class="pr-1" alt="">
+                                    (BTC)
+                                </div>
+                                <div>
+                                    BITCOIN
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td> <img src="./images/table/download (1) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        02
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t2.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    ETHEREUM
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (2) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        03
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t3.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    BITCOIN
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (1) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        04
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t4.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    ETHEREUM
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (2) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        05
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t5.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    BITCOIN
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (1) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        06
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t6.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    ETHEREUM
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (2) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        07
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t7.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    BITCOIN
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (1) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        08
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t8.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    ETHEREUM
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (2) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        03
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t 9.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    BITCOIN
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (1) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        10
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t10.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    ETHEREUM
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (2) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        11
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t11.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    BITCOIN
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (1) 1.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <div class="d-flex">
+                                    <div class="star">
+                                        <i class="far fa-star pr-1"> </i>
+                                    </div>
+                                    <div>
+                                        12
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="./images/table/t12.png" class="pr-1" alt="">
+                                    (ETH)
+                                </div>
+                                <div>
+                                    ETHEREUM
+                                </div>
+                            </td>
+                            <td>$4,650,795.19</td>
+                            <td>-0.41%</td>
+                            <td>8.26%</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td>$88.04 T</td>
+                            <td><img src="./images/table/download (2) 1.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-end">
+                    <div class="tablet-btn1">
+                        <a href="#" >Previous</a>
+
+                    </div>
+                    <div  class="tablet-btn2">
+                        <a href="#">Next</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-bg">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start">
+                        <div class="cpr-text">
+                            Copyright © 2021, All Right Reserved
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-2 pt-lg-0">
+
+                        <div class="foter-icon d-flex justify-content-lg-end justify-content-center ">
+
+                            <div class="px-2">
+                                <i class="fab fa-facebook-f "></i>
+                            </div>
+                            <div class="px-2">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="px-2">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="px-2 insta">
+                                <i class="fab fa-instagram "></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- <script src="./js/dataTables.dataTables.min.js"></script> -->
+    <!-- <script src="./js/jquery.dataTables.min.js"></script> -->
+    <!-- <script>
+        $(document).ready(function () {
+            $('#table_id').DataTable({
+                "pagingType": "simple",
+                // "bLengthChange": false,
+                // bInfo : false,
+                // "lengthChange": false
+                "order": [[ 0, "desc" ]],
+                "ordering": true,
+                // "dom": '<"wrapper"flipt>',
+                //"dom": '<lf<t>pp>',
+                // "dom": '<"top"i>rt<"bottom"flp><"clear">',
+
+                "dom": " <'row no-gutters' <'col-sm-6'>  <'col-sm-6'pf>  >     <'dbTable't>    <'row no-gutters'  <'col-sm-6'p> >",
+            });
+        });
+    </script> -->
+
+</body>
+
+</html>
